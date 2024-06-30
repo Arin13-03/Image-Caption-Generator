@@ -5,7 +5,7 @@
 1. The goal of this project is to create a system that generates descriptive text for a given image, essentially producing a 'caption' for the image.
 2. Utilized the Flickr8k dataset, which includes 8,091 images, each accompanied by 5 captions.
 3. Employed an Encoder-Decoder model architecture, using a Pre-Trained VGG16 network as the Encoder and an LSTM cell with Bahdanau Attention as the Decoder.
-4. Achieved a corpus BLEU-1 score of 0.539 and BLEU-2 score of 0.313 on the test dataset(flickr8k) for caption generation accuracy.
+4. Achieved a corpus BLEU-1 score of 0.537 and BLEU-2 score of 0.315 on the test dataset(flickr8k) for caption generation accuracy.
 
 # Model Preview
 ![Model](/ModelPreview.jpg)
